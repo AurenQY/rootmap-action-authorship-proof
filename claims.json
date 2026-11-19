@@ -103,7 +103,15 @@
       "Douyin profile with owner-only controls",
       "Bilibili video page, uploader Hermes的知识库, published 2026-11-16 11:30:00",
       "WeChat Channels creator dashboard: posted 2026-11-16 11:30, declared original",
-      "X repost by @AQZ179 shown as 9:13 PM Nov 18, 2026 (UTC+8) = 2026-11-18T13:13Z, same 19:09 duration"
+      "X repost by @dcp164 shown as 9:13 PM Nov 18, 2026 (UTC+8) = 2026-11-18T13:13Z, same 19:09 duration",
+      "Bottom-left X account @AQZ179 (A.Z.) is the author's own logged-in X account, not the reposter"
     ]
+  },
+  "author_x_account": "@AQZ179",
+  "reported_repost": {
+    "platform": "X",
+    "account": "@dcp164",
+    "posted_utc": "2026-11-18T13:13Z",
+    "duration": "19:09"
   }
 }

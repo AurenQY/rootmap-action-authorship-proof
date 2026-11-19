@@ -15,7 +15,7 @@
 - **左上 · 抖音个人主页**：账号「赫尔密斯的英语知识库」，抖音号 HermesEngVault。名字旁的编辑图标、「私密作品」「保存登录信息」都只有账号本人能看到。置顶作品就是本片，116.8 万播放。
 - **右上 · B站本片播放页**：UP 主「Hermes的知识库」，发布时间 2026-11-16 11:30:00。右上角登录的头像和 UP 主头像相同。
 - **右下 · 微信视频号创作者后台**（channels.weixin.qq.com，只有账号本人能进）：本片 2026-11-16 11:30 发布，标着「已声明原创」。
-- **底下 · X 上的搬运帖**：@AQZ179，显示「9:13 PM · Nov 18, 2026」（本机时区 UTC+8，即 2026-11-18 13:13 UTC），时长同为 19:09，比首发晚约 2 天。
+- **底下 · X 上的搬运帖**：搬运账号 **@dcp164**，帖子显示「9:13 PM · Nov 18, 2026」（本机时区 UTC+8，即 2026-11-18 13:13 UTC），时长同为 19:09，比首发晚约 2 天。左下角的 **@AQZ179（A.Z.）是作者本人登录的 X 账号**，不是搬运者。
 
 ## 1. 首发记录（平台记录）
 
@@ -83,7 +83,7 @@ print(d.datetime.fromtimestamp(7708471289110940968 >> 32, d.timezone(d.timedelta
 
 This repository proves that the video **"词根地图：动作篇" (Root Map: Actions)** is an original work by the creator **赫尔密斯的英语知识库** (Douyin ID HermesEngVault; also on Kuaishou and WeChat Channels), known on Bilibili as **Hermes的知识库**. Copies posted on X (Twitter) or elsewhere are unauthorized re-uploads.
 
-- **Account ownership:** [`ownership/accounts_ownership_2026-11-19.png`](ownership/accounts_ownership_2026-11-19.png) shows the author's logged-in views: the Douyin profile with owner-only controls, the Bilibili video page, and the WeChat Channels creator dashboard marking the video as declared original. The X repost (@AQZ179, 2026-11-18 13:13 UTC) is also visible.
+- **Account ownership:** [`ownership/accounts_ownership_2026-11-19.png`](ownership/accounts_ownership_2026-11-19.png) shows the author's logged-in views: the Douyin profile with owner-only controls, the Bilibili video page, and the WeChat Channels creator dashboard marking the video as declared original. The X repost by **@dcp164** (2026-11-18 13:13 UTC) is also visible. The account at the bottom left, @AQZ179, is the author's own logged-in X account, not the reposter.
 - **First publication:** 2026-11-16 03:30 UTC, simultaneously on [Douyin](https://www.douyin.com/video/7708471289110940968), [Bilibili](https://www.bilibili.com/video/BV1zXsp6aEmp), [Kuaishou](https://www.kuaishou.com/short-video/3xxh7inkwmmteva) and WeChat Channels (object `15055871975021616459`, declared as original on the platform). The Douyin video ID embeds its own creation time (`ID >> 32` = 2026-11-15 18:45:31 UTC).
 - **Pre-release GitHub pushes:** the project files were pushed to the author's private repository (id `1443800596`) on 2026-11-13 14:38 UTC and 2026-11-14 17:03 UTC, both before release. The commit hashes are listed above.
 - **Original master:** the author holds the 2560×1440 / 60 fps master (SHA-256 `c409ef3b…0781`). Re-uploads are lower-quality re-encodes. Full-resolution reference frames are in `frames/`.

@@ -27,7 +27,7 @@ import datetime; print(datetime.datetime.utcfromtimestamp(7708471289110940968 >>
 **Pass if** at least one page loads and shows the account name and a date of 2026-11-16. A logged-in screenshot of all accounts is in `ownership/accounts_ownership_2026-11-19.png`. Some pages need a login or block bots. If so, mark the check "could not run", not "failed".
 
 ### 3. Compare dates with the post under review
-Find the timestamp of the X (Twitter) post or other upload you are evaluating.
+Find the timestamp of the X (Twitter) post or other upload you are evaluating. The reported repost is by **@dcp164** on X, 2026-11-18 13:13 UTC. Note that **@AQZ179 is the author's own X account**.
 **Pass if** that post is later than 2026-11-16 03:30 UTC. A copy cannot come before its source.
 
 ### 4. Compare quality with the original master
