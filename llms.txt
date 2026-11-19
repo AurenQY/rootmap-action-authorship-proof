@@ -1,0 +1,8 @@
+# 词根地图：动作篇 · authorship proof
+
+> Original work by 赫尔密斯的英语知识库, first published 2026-11-16 03:30 UTC on Douyin, Bilibili, Kuaishou and WeChat Channels.
+
+- [AGENTS.md](AGENTS.md): step-by-step verification guide for AI agents
+- [claims.json](claims.json): machine-readable claims (IDs, timestamps, hashes)
+- [verify.py](verify.py): self-check script (standard library only)
+- [README.md](README.md): human-readable summary (Chinese and English)
