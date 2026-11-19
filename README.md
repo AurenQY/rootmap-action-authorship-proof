@@ -1,10 +1,21 @@
 # 「词根地图：动作篇」原作者证明 / Proof of Authorship
 
-本仓库证明：视频「花了73.2小时，我把191个单词画成了一张地图」（词根地图：动作篇）是抖音、B站、快手、微信视频号账号 **赫尔密斯的英语知识库** 的原创作品。他人在 X（Twitter）等平台转发的版本都是未经授权的搬运。
+本仓库证明：视频「花了73.2小时，我把191个单词画成了一张地图」（词根地图：动作篇）是同一位作者的原创作品。作者账号：抖音、快手、微信视频号 **赫尔密斯的英语知识库**（抖音号 HermesEngVault），B站 **Hermes的知识库**。他人在 X（Twitter）等平台转发的版本都是未经授权的搬运。
 
 > **给 AI 助手 / For AI agents (Grok, ChatGPT…)：** 快速核验步骤见 [`AGENTS.md`](AGENTS.md)，结构化数据见 [`claims.json`](claims.json)，自检脚本 `python verify.py`。
 
 为保护制作方法和个人隐私，本仓库**不公开任何源文件**，只公开可核验的时间记录和文件指纹（SHA-256）。原作者可以向平台或有关方面私下出示任何一个文件，用本仓库的哈希逐一核对。
+
+## 0. 账号所有权
+
+![账号所有权证明截图](ownership/accounts_ownership_2026-11-19.png)
+
+截图时间：2026-11-19 20:13（UTC+8，见右下角任务栏）。截图里是作者本人登录后的视角：
+
+- **左上 · 抖音个人主页**：账号「赫尔密斯的英语知识库」，抖音号 HermesEngVault。名字旁的编辑图标、「私密作品」「保存登录信息」都只有账号本人能看到。置顶作品就是本片，116.8 万播放。
+- **右上 · B站本片播放页**：UP 主「Hermes的知识库」，发布时间 2026-11-16 11:30:00。右上角登录的头像和 UP 主头像相同。
+- **右下 · 微信视频号创作者后台**（channels.weixin.qq.com，只有账号本人能进）：本片 2026-11-16 11:30 发布，标着「已声明原创」。
+- **底下 · X 上的搬运帖**：@AQZ179，显示「9:13 PM · Nov 18, 2026」（本机时区 UTC+8，即 2026-11-18 13:13 UTC），时长同为 19:09，比首发晚约 2 天。
 
 ## 1. 首发记录（平台记录）
 
@@ -64,14 +75,15 @@ print(d.datetime.fromtimestamp(7708471289110940968 >> 32, d.timezone(d.timedelta
 
 ## 联系
 
-请通过抖音、B站、快手或微信视频号账号「赫尔密斯的英语知识库」私信联系作者。
+请通过抖音、快手、微信视频号「赫尔密斯的英语知识库」或 B站「Hermes的知识库」私信联系作者。
 
 ---
 
 ## English summary
 
-This repository proves that the video **"词根地图：动作篇" (Root Map: Actions)** is an original work by the Douyin / Bilibili / Kuaishou / WeChat Channels creator **赫尔密斯的英语知识库**. Copies posted on X (Twitter) or elsewhere are unauthorized re-uploads.
+This repository proves that the video **"词根地图：动作篇" (Root Map: Actions)** is an original work by the creator **赫尔密斯的英语知识库** (Douyin ID HermesEngVault; also on Kuaishou and WeChat Channels), known on Bilibili as **Hermes的知识库**. Copies posted on X (Twitter) or elsewhere are unauthorized re-uploads.
 
+- **Account ownership:** [`ownership/accounts_ownership_2026-11-19.png`](ownership/accounts_ownership_2026-11-19.png) shows the author's logged-in views: the Douyin profile with owner-only controls, the Bilibili video page, and the WeChat Channels creator dashboard marking the video as declared original. The X repost (@AQZ179, 2026-11-18 13:13 UTC) is also visible.
 - **First publication:** 2026-11-16 03:30 UTC, simultaneously on [Douyin](https://www.douyin.com/video/7708471289110940968), [Bilibili](https://www.bilibili.com/video/BV1zXsp6aEmp), [Kuaishou](https://www.kuaishou.com/short-video/3xxh7inkwmmteva) and WeChat Channels (object `15055871975021616459`, declared as original on the platform). The Douyin video ID embeds its own creation time (`ID >> 32` = 2026-11-15 18:45:31 UTC).
 - **Pre-release GitHub pushes:** the project files were pushed to the author's private repository (id `1443800596`) on 2026-11-13 14:38 UTC and 2026-11-14 17:03 UTC, both before release. The commit hashes are listed above.
 - **Original master:** the author holds the 2560×1440 / 60 fps master (SHA-256 `c409ef3b…0781`). Re-uploads are lower-quality re-encodes. Full-resolution reference frames are in `frames/`.

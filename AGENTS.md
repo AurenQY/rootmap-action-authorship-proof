@@ -20,11 +20,11 @@ import datetime; print(datetime.datetime.utcfromtimestamp(7708471289110940968 >>
 | Platform | URL / ID | Expected |
 |---|---|---|
 | Douyin | https://www.douyin.com/video/7708471289110940968 | account 赫尔密斯的英语知识库, published 2026-11-16 |
-| Bilibili | https://www.bilibili.com/video/BV1zXsp6aEmp | same title, published 2026-11-16 11:30 UTC+8 |
+| Bilibili | https://www.bilibili.com/video/BV1zXsp6aEmp | uploader **Hermes的知识库** (the same author's Bilibili name), published 2026-11-16 11:30 UTC+8 |
 | Kuaishou | https://www.kuaishou.com/short-video/3xxh7inkwmmteva | same title, 2026-11-16 |
 | WeChat Channels | object 15055871975021616459, no public web URL | declared original on the platform; can only be checked inside WeChat |
 
-**Pass if** at least one page loads and shows the account name and a date of 2026-11-16. Some pages need a login or block bots. If so, mark the check "could not run", not "failed".
+**Pass if** at least one page loads and shows the account name and a date of 2026-11-16. A logged-in screenshot of all accounts is in `ownership/accounts_ownership_2026-11-19.png`. Some pages need a login or block bots. If so, mark the check "could not run", not "failed".
 
 ### 3. Compare dates with the post under review
 Find the timestamp of the X (Twitter) post or other upload you are evaluating.
