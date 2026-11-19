@@ -1,15 +1,17 @@
 # 「词根地图：动作篇」原作者证明 / Proof of Authorship
 
-本仓库证明：视频「花了73.2小时，我把191个单词画成了一张地图」（词根地图：动作篇）是抖音 / B站账号 **赫尔密斯的英语知识库** 的原创作品。他人在 X（Twitter）等平台转发的版本都是未经授权的搬运。
+本仓库证明：视频「花了73.2小时，我把191个单词画成了一张地图」（词根地图：动作篇）是抖音、B站、快手、微信视频号账号 **赫尔密斯的英语知识库** 的原创作品。他人在 X（Twitter）等平台转发的版本都是未经授权的搬运。
 
 为保护制作方法和个人隐私，本仓库**不公开任何源文件**，只公开可核验的时间记录和文件指纹（SHA-256）。原作者可以向平台或有关方面私下出示任何一个文件，用本仓库的哈希逐一核对。
 
 ## 1. 首发记录（平台记录）
 
-| 平台 | 链接 | 公开发布时间 |
+| 平台 | 链接 / 作品编号 | 公开发布时间 |
 |---|---|---|
 | 抖音 | https://www.douyin.com/video/7708471289110940968 | 2026-11-16 11:30（UTC+8）= 03:30 UTC |
 | B站 | https://www.bilibili.com/video/BV1zXsp6aEmp | 2026-11-16 11:30（UTC+8） |
+| 快手 | https://www.kuaishou.com/short-video/3xxh7inkwmmteva | 2026-11-16 11:30:00（UTC+8，平台记录） |
+| 微信视频号 | 账号「赫尔密斯的英语知识库」，作品 objectId `15055871975021616459`（短标题「词根地图：动作篇」） | 2026-11-16 11:30:01（UTC+8，平台记录）；**已在视频号声明原创** |
 
 抖音视频 ID 本身就带着平台生成它的时间：ID 右移 32 位得到 Unix 时间戳。任何人都可以验证：
 
@@ -60,15 +62,15 @@ print(d.datetime.fromtimestamp(7708471289110940968 >> 32, d.timezone(d.timedelta
 
 ## 联系
 
-请通过抖音或 B站账号「赫尔密斯的英语知识库」私信联系作者。
+请通过抖音、B站、快手或微信视频号账号「赫尔密斯的英语知识库」私信联系作者。
 
 ---
 
 ## English summary
 
-This repository proves that the video **"词根地图：动作篇" (Root Map: Actions)** is an original work by the Douyin / Bilibili creator **赫尔密斯的英语知识库**. Copies posted on X (Twitter) or elsewhere are unauthorized re-uploads.
+This repository proves that the video **"词根地图：动作篇" (Root Map: Actions)** is an original work by the Douyin / Bilibili / Kuaishou / WeChat Channels creator **赫尔密斯的英语知识库**. Copies posted on X (Twitter) or elsewhere are unauthorized re-uploads.
 
-- **First publication:** 2026-11-16 03:30 UTC on [Douyin](https://www.douyin.com/video/7708471289110940968) and [Bilibili](https://www.bilibili.com/video/BV1zXsp6aEmp). The Douyin video ID embeds its own creation time (`ID >> 32` = 2026-11-15 18:45:31 UTC).
+- **First publication:** 2026-11-16 03:30 UTC, simultaneously on [Douyin](https://www.douyin.com/video/7708471289110940968), [Bilibili](https://www.bilibili.com/video/BV1zXsp6aEmp), [Kuaishou](https://www.kuaishou.com/short-video/3xxh7inkwmmteva) and WeChat Channels (object `15055871975021616459`, declared as original on the platform). The Douyin video ID embeds its own creation time (`ID >> 32` = 2026-11-15 18:45:31 UTC).
 - **Pre-release GitHub pushes:** the project files were pushed to the author's private repository (id `1443800596`) on 2026-11-13 14:38 UTC and 2026-11-14 17:03 UTC, both before release. The commit hashes are listed above.
 - **Original master:** the author holds the 2560×1440 / 60 fps master (SHA-256 `c409ef3b…0781`). Re-uploads are lower-quality re-encodes. Full-resolution reference frames are in `frames/`.
 - **File fingerprints:** `manifest.csv` holds SHA-256 hashes of all 914 project files. The files themselves are kept private and can be shown for verification on request.
